@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+/* MENU */
+.menu{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:#f2f2f2;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#777;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+/* BANNER */
+.banner{
+    height:500px;
+    background:url("anh/anhde") center/cover no-repeat;
+    position:relative;
+}
+
+/* TEXT TRÊN ẢNH */
+.banner-text{
+    position:absolute;
+    left:80px;
+    top:200px;
+    color:white;
+}
+
+.banner-text h1{
+    font-size:55px;
+    margin:0;
+}
+
+.banner-text p{
+    font-size:20px;
+}
